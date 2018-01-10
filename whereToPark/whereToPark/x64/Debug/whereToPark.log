@@ -1,0 +1,23 @@
+﻿  search.cpp
+d:\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\github\wheretopark\wheretopark\wheretopark\main.h(26): warning C4091: “typedef ”: 没有声明变量时忽略“ColorSignature”的左侧
+  main.cpp
+d:\opencv\build\include\opencv2\core\mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\opencv\build\include\opencv2\imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\github\wheretopark\wheretopark\wheretopark\main.h(26): warning C4091: “typedef ”: 没有声明变量时忽略“ColorSignature”的左侧
+d:\github\wheretopark\wheretopark\wheretopark\main.cpp(18): warning C4305: “初始化”: 从“double”到“float”截断
+d:\github\wheretopark\wheretopark\wheretopark\main.cpp(171): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\github\wheretopark\wheretopark\wheretopark\main.cpp(174): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\github\wheretopark\wheretopark\wheretopark\main.cpp(217): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\github\wheretopark\wheretopark\wheretopark\main.cpp(220): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+d:\github\wheretopark\wheretopark\wheretopark\main.cpp(263): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+d:\github\wheretopark\wheretopark\wheretopark\main.cpp(266): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+  whereToPark.vcxproj -> D:\GitHub\whereToPark\whereToPark\x64\Debug\whereToPark.exe
