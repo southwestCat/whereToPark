@@ -369,7 +369,7 @@ int main()
 	return 1;
 #else 
 	bool first = true;
-	VideoCapture capture(0);
+	VideoCapture capture(1);
 
 	if (!capture.isOpened())
 	{
@@ -413,10 +413,19 @@ int main()
 			imshow(windows1, rgb);
 		}
 		else {
-			search(rgb, sigr, sigg, sigb);
+			searchCar(rgb, sigr, sigg);
+			searchPark(rgb, sigb);
+
+			circle(rgb, car.head, 10, Scalar(255, 0, 0), -1, 8, 0);
+			circle(rgb, car.tail, 10, Scalar(255, 0, 0), -1, 8, 0);
+			circle(rgb, park, 10, Scalar(255, 0, 255), -1, 8, 0);
+			circle(rgb, parkL, 10, Scalar(0, 215, 255), -1, 8, 0);
+			circle(rgb, parkR, 10, Scalar(0, 215, 255), -1, 8, 0);
+			imshow(windows1, rgb);
+			cout << car.head << "    " << car.tail << endl;
 		}
 
-		int c = waitKey(30);
+		int c = waitKey(100);
 		if (c == 27)
 			break;
 	}

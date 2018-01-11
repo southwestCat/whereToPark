@@ -24,3 +24,4 @@ typedef struct ColorSignature
 	int m_rgb;
 	int m_type;
 };
+
